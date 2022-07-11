@@ -3,9 +3,6 @@ import 'package:bloc_with_router/router/app_state_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-// TODO: didPop and handlePop at all
-// TODO: deepLinks
-
 void main() {
   runApp(const BLoCWithRouter());
 }
@@ -19,6 +16,7 @@ class BLoCWithRouter extends StatefulWidget {
 
 class _BLoCWithRouterState extends State<BLoCWithRouter> {
   final _appStateManager = AppStateManager();
+
   late AppRouter _appRouter;
 
   @override

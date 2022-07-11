@@ -39,6 +39,9 @@ class AppRouter extends RouterDelegate
     if (!route.didPop(result)) {
       return false;
     }
+
+    // TODO: Handle pages pop event
+
     return true;
   }
 

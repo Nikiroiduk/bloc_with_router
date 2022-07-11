@@ -1,13 +1,12 @@
+import 'package:bloc_with_router/router/app_screens.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-
-import '../router/app_state_manager.dart';
 
 class RedScreen extends StatelessWidget {
   const RedScreen({Key? key}) : super(key: key);
 
   static MaterialPage page() {
     return const MaterialPage(
+      name: AppScreens.redName,
       child: RedScreen(),
     );
   }
